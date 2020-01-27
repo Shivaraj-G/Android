@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.app.generic.ExtListner" />
+</listeners>
+
+<test thread-count="5" name="Test">
+<classes>
+<class name = "com.app.testCases.AddToBasketAndIncreaseQTY"/>
+<class name = "com.app.testCases.WriteReview"/>
+<!-- <class name="com.app.testCases.ModifyPasswordTest" /> -->
+<!-- <class name="com.app.testCases.LogInToApp" /> -->
+<!-- <class name="com.app.testCases.LogOutFromApp"/>
+<class name="com.app.testCases.EditAccInfoTest"/> 
+<class name="com.app.testCases.EditAccInfoTest" />-->
+<!-- <class name="com.app.testCases.ModifyPasswordTest" /> -->
+<!-- <class name="com.app.testCases.LogInToApp"/> -->
+</classes>
+</test>
+</suite> 
